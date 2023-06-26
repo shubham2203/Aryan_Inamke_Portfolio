@@ -128,7 +128,7 @@ section.container:nth-child(11) > div:nth-child(1) {
 }
 
 /* Media query for screens with a maximum width of 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .nav-links {
        display: flex;
         flex-direction: row; /* Stack the links vertically */
@@ -384,7 +384,7 @@ p {
 }
 
 
-@media (min-width: 900px){
+@media (min-width: 1000px){
     .panel-pricing-table{
         flex-direction: row;
 
@@ -465,7 +465,7 @@ small {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     .timeline {
         display: grid;
         grid-template-columns: 1fr 3px 1fr;
