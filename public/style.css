@@ -338,6 +338,19 @@ p {
     -webkit-text-fill-color: transparent;
     margin-top: 6.4rem;
 }
+.timeline-container-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 64px;
+    background: linear-gradient(97.13deg, #E9E9E9 0%, #515151 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 4rem;
+}
 
 
 .resume .butt {
@@ -520,7 +533,8 @@ small {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
 }
 .first-button {
     cursor: pointer;
@@ -528,8 +542,13 @@ small {
     padding: 10px 20px;
     transition: all 0.1s ease-in;
     font-family: 'Outfit', sans-serif;
+
 }
 
+.fa-paper-plane {
+    font-size: 16px;
+    margin-left: .5rem;
+}
 
 
 .heading-1 {
@@ -616,6 +635,10 @@ small {
     border-color: #242424;
 
 }
+#contact-button > i:nth-child(1) {
+    margin-left: 8px;
+}
+
 #contact-form input:focus {
     outline: 0;
 }
@@ -643,6 +666,10 @@ small {
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #242424;
+}
+
+#contact-button:hover {
+    box-shadow: 0 5px 15px rgba(154, 154, 154, .2);
 }
 
 /* .button-holders-1 {*/

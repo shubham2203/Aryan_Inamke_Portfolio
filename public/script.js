@@ -57,6 +57,8 @@
     var h1 = document.querySelectorAll('#myForm h1')[0];
     var submit = document.getElementById('submit');
 
+
+
     /* start animation on ct_btn click by adding the grow class */
 
     ct_btn.onclick = function() {
